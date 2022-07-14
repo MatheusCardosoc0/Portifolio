@@ -34,7 +34,7 @@ export function Sobre(){
           Me considero alguém com um bom auto controle, otimista, e dedicado, me forço a cada dia me melhorar cada vez mais.
         </p>
         <p>
-          Procuro por uma vaga de estagio para desenvolvedor front-end.
+          Procuro por uma vaga de estagio para desenvolvedor front-end ou desenvolvedor junior em front-end.
         </p>
       </div>
       </section></div>
