@@ -9,15 +9,14 @@ export function Header(){
 
   
   return(
-    <div className="p-5 bg-slate-800 text-yellow-500 text-sm fixed w-screen top-0" id="header">
+    <div className="p-5 bg-slate-800 text-yellow-500 text-sm fixed w-screen top-0 z-10" id="header">
       <header className="flex justify-around">
         <div className="flex flex-col">
-          <strong className="lg:text-3xl text-xl w-[10rem] lg:w-[30rem]">Site sempre atualizado</strong>
+          <strong className="lg:text-3xl text-xl w-[10rem] lg:w-[30rem]">Matheus Cardoso Luiz Costa</strong>
         </div>
         <div className="gap-5 items-center hidden lg:flex lg:text-xl ">
-        <Link className={location.href == 'http://localhost:3000/'? Color : ''} to="/">Sobre</Link>
+        <Link className={location.href.includes('sobre')? Color : ''} to="/sobre">Sobre</Link>
         <Link className={location.href.includes('projeto')? Color : ''}to="/projeto">Projetos</Link>
-        <Link className={location.href.includes('experiencia')? Color : ''} to="/experiencia">Experiência</Link>
         <Link className={location.href.includes('habilidades')? Color : ''} to="/habilidades">Habilidades</Link>
         </div>
         <div className="lg:hidden hover:bg-purple-700 rounded-full hover:p-2 hover:animate-pull">

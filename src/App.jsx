@@ -1,4 +1,4 @@
-import { Experiencia } from "./pages/experiencia"
+
 import { Projeto } from "./pages/projetos"
 import { Sobre } from "./pages/Sobre"
 import { Routers } from "./Routers"
