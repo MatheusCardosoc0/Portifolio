@@ -4,6 +4,7 @@ import { useState } from "react";
 export function CardsProject(props){
 
   const [classes, setClasses] = useState('hidden')
+  const [showLink, setShowLink] = useState(!props.show)
 
 
   return(
@@ -36,9 +37,9 @@ export function CardsProject(props){
         <GithubLogo></GithubLogo> Codigo do projeto
       </a>
      
-      <a className="flex gap-1 items-center px-1  justify-center text-green-600 animate-pulse  rounded-full  mx-auto mt-2 bg-black" href={props.nome} target={"_blank"}><Eye></Eye>
+      {showLink && <a className="flex gap-1 items-center px-1  justify-center text-green-600 animate-pulse  rounded-full  mx-auto mt-2 bg-black" href={props.nome} target={"_blank"}><Eye></Eye>
       Visualizar
-      </a>
+      </a>}
       </div>
     </div>
   )

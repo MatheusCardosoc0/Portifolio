@@ -28,13 +28,13 @@ export function Sobre(){
       <h1 className="mt-24 text-2xl mb-8 lg:text-3xl font-bold">Sobre Mim</h1>
       <div className="w-[20rem] lg:w-[24rem] text-left flex flex-col gap-4 text-lg p-2 lg:text-2xl ">
         <p >
-          Estudo sobre rogramação desde 2021, atualmente estou focado nas tecnlogias javascript para desenvolvimento front-end e futuramente full-stack, estou focado em me aprimorar principalmente no react-js.
+          Estudo sobre rogramação desde março de 2022, atualmente estou focado nas tecnlogias javascript para desenvolvimento front-end, back-end e mobile, conheço sobre typescript, estrutura rest-api, context-api, react-router-dom e um pouco sobre alguns gerenciadores de banco de dados como o prisma e sanity .
         </p>
         <p>
           Me considero alguém com um bom auto controle, otimista, e dedicado, me forço a cada dia me melhorar cada vez mais.
         </p>
         <p>
-          Procuro por uma vaga de estagio para desenvolvedor front-end ou desenvolvedor junior em front-end.
+          Procuro por uma vaga de estagio para desenvolvedor react-js.
         </p>
       </div>
       </section></div>

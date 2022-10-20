@@ -2,8 +2,9 @@
 import { ArrowBendUpLeft, CaretLeft, CaretRight, FileArrowDown } from 'phosphor-react'
 import { useState } from 'react'
 import { Header } from '../components/Header'
-import { List1 } from './assets/Route/List1'
-import { List2 } from './assets/Route/List2'
+import { List1 } from './assets/projects/List1'
+import { List2 } from './assets/projects/List2'
+import { List3 } from './assets/projects/List3'
 
 export function Projeto() {
 
@@ -16,8 +17,9 @@ export function Projeto() {
         Meus projetos
       </h1>
       <div className="content">
-        <span className={pageNumber == 1? 'appeared' : 'disappeared'}> <List1></List1></span>
-        <span className={pageNumber == 2? 'appeared' : 'disappeared'}> <List2></List2></span>
+        <span className={pageNumber == 1? 'appeared' : 'disappeared'}> <List3/></span>
+        <span className={pageNumber == 2? 'appeared' : 'disappeared'}> <List2/></span>
+        <span className={pageNumber == 3? 'appeared' : 'disappeared'}> <List1/></span>
       </div>
       <footer className='mt-10 text-center '>
         <button className='btn rounded-l-2xl'
